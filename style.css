@@ -1,0 +1,208 @@
+/* Estilo de cuerpo y encabezado */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4267B2; /* Facebook blue */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Estilo del menú de navegación */
+nav {
+  background-color: #1DA1F2; /* Twitter blue */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #1DA1F2;
+}
+
+/* Estilo de contenido */
+main {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  padding: 1rem;
+}
+
+aside {
+  flex: 0 0 25%;
+  background-color: #F5F5F5;
+  padding: 1rem;
+}
+
+/* Estilo de la sección de noticias */
+section {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+}
+
+section p {
+  margin: 0;
+}
+
+section a {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+
+.myButton {
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+  background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color:#eae0c2;
+  border-radius:15px;
+  border:2px solid #333029;
+  display:inline-block;
+  cursor:pointer;
+  color:#505739;
+  font-family:Arial;
+  font-size:14px;
+  font-weight:bold;
+  padding:12px 16px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color:#ccc2a6;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+        a {
+  text-decoration: none;
+}
+
+
+
+/*PARTE DEL VIDEO*/
+
+video {
+  max-width: 900px;
+  max-height: 500px;
+}
+
+#boton1{
+ width: 100px;
+  height: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Boton de mas*/
+
+button {
+ --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(100, 61, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+}
+
+button::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+button:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+button:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+
+
+
+
+body{
+background: rgb(3,0,23);
+background: linear-gradient(90deg, rgba(3,0,23,1) 0%, rgba(3,142,209,1) 0%, rgba(4,123,196,1) 0%, rgba(13,13,15,1) 0%, rgba(41,41,87,1) 100%, rgba(7,60,155,1) 100%);
+}
